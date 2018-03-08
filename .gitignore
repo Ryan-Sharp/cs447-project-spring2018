@@ -1,3 +1,7 @@
+
+# Pre generated ignore from github #
+#########################################
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -99,3 +103,9 @@ ENV/
 
 # mypy
 .mypy_cache/
+
+##########################################
+# END - Pre generated ignore from github #
+##########################################
+
+python-virtualenv
