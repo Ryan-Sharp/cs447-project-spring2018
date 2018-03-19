@@ -109,3 +109,5 @@ ENV/
 ##########################################
 
 python-virtualenv
+
+node_modules
