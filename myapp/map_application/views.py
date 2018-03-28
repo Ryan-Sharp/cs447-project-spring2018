@@ -1,6 +1,7 @@
 from django.http import HttpResponse
+from django.template import loader
 
 def index(request):
-	return HttpResponse("Hello, world. You're at the map applications index.")
-
+	template = loader.get_template('map_application/index.html')
+	return HttpResponse(template.render())
 # Create your views here.

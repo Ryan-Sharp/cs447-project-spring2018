@@ -1,0 +1,13 @@
+{% load render_bundle from webpack_loader %}
+{% load static %}
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>React webpack starter</title>
+  </head>
+  <body>
+    <div id="container"></div>
+    {% render_bundle 'main' %}
+  </body>
+</html>
