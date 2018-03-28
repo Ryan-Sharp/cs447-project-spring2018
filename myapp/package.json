@@ -4,7 +4,7 @@
   "description": "cs447 map application",
   "main": "lib/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "node node_modules/webpack/bin/webpack.js --watch --config webpack.config.js --mode development"
   },
   "repository": {
     "type": "git",
